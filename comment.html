@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="star.css">
+        <link rel="stylesheet" href="#">
+        <link rel="stylesheet" media="screen and (max-width: 1170px)" href="Phone.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <img src="images/logo.png" alt="" class="mx-3 my-2">
+                <a class="navbar-brand" href="#" style="color:orange;">Jouryner</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navCenter" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-lg-5 ">
+                        <li class="nav-item" id="navcolor">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Events
+                            </a>
+                            <ul class="dropdown-menu">
+                                <div class="row eventDrop">
+                                    <div class="col-12 col-md-6 col-lg-3 p-4">
+                                        <li>
+                                            <h4><b>Summer Events</b></h4>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Ladakh</a></li>
+                                        <li><a class="dropdown-item" href="#">Srinagar</a></li>
+                                        <li><a class="dropdown-item" href="#">Manali </a></li>
+                                        <li><a class="dropdown-item" href="#">Kasol </a></li>
+                                        <li><a class="dropdown-item" href="#">Nainital </a></li>
+                                        <li><a class="dropdown-item" href="#">Shimla </a></li>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 p-4">
+                                        <li>
+                                            <h4><b>Winter Events</b></h4>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Rajasthan</a></li>
+                                        <li><a class="dropdown-item" href="#">Jaipur</a></li>
+                                        <li><a class="dropdown-item" href="#">Udaipur</a></li>
+                                        <li><a class="dropdown-item" href="#">Jaisalmer</a></li>
+                                        <li><a class="dropdown-item" href="#">Jodhpur</a></li>
+                                        <li><a class="dropdown-item" href="#">Himachal Pradesh</a></li>
+                                        <li><a class="dropdown-item" href="#">Rann Of Kutch</a></li>
+                                        <li><a class="dropdown-item" href="#">Lakshadweep</a></li>
+                                        <li><a class="dropdown-item" href="#">Goa</a></li>
+
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 p-4">
+                                        <li>
+                                            <h4><b>Monsoon Events</b></h4>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Valley of Flowers</a></li>
+                                        <li><a class="dropdown-item" href="#">Shillong, Meghalaya</a></li>
+                                        <li><a class="dropdown-item" href="#">Valley of Flowers, Uttarakhand</a></li>
+                                        <li><a class="dropdown-item" href="#">Malshej Ghats</a></li>
+                                        <li><a class="dropdown-item" href="#">saputara</a></li>
+                                        <li><a class="dropdown-item" href="#">Dang</a></li>
+
+
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 p-4">
+                                        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                                            <!-- Indicators/dots -->
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#demo" data-bs-slide-to="0"
+                                                    class="active"></button>
+                                                <button type="button" data-bs-target="#demo"
+                                                    data-bs-slide-to="1"></button>
+                                                <button type="button" data-bs-target="#demo"
+                                                    data-bs-slide-to="2"></button>
+                                                <button type="button" data-bs-target="#demo"
+                                                    data-bs-slide-to="3"></button>
+                                                <button type="button" data-bs-target="#demo"
+                                                    data-bs-slide-to="4"></button>
+                                            </div>
+
+                                            <!-- The slideshow/carousel -->
+                                            <div class="dropCarousel">
+                                                <div class="carousel-item active">
+                                                    <a href=""><img src="Images/banner-3.jpg" alt="Los Angeles"
+                                                            class="d-block w-100  "></a>
+                                                    <!-- <a href=""><video src="Images/banner-3.jpg"class="d-block w-100" autoplay playsinline muted ></video></a> -->
+
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href=""><img src="Images/images.jpg" alt="Los Angeles"
+                                                            class="d-block w-100 "></a>
+                                                    <!-- <a href=""><video src="Images/WhatsApp Video 2022-09-11 at 19.14.31.mp4"class="d-block w-100" autoplay playsinline muted ></video></a> -->
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href=""><img src="Images/Gira.jpg" alt="New York"
+                                                            class="d-block w-100 "></a>
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <a href=""><img src="Images/gateway-of-india.jpg" alt="New York"
+                                                            class="d-block w-100 "></a>
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <a href=""><img src="Images/taj-mahal-agra.jpg" alt="New York"
+                                                            class="d-block w-100 "></a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Left and right controls/icons -->
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#demo"
+                                                data-bs-slide="prev">
+
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#demo"
+                                                data-bs-slide="next">
+
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active">Service</a>
+                        </li>
+                        <li class="nav-item" id="navcolor"><a href="" class="navacol nav-link active"
+                                aria-current="page"><i class="fa-solid fa-user logcol"></i>Login</a></li>
+                    </ul>
+
+                    <!-- <div style="border: 2px solid red;">
+                        <ul class="icon">
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="" ><i class="fa-solid fa-bars"></i></a></li>
+                        </ul>
+                </div> -->
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary mx-3" type="submit">Search</button>
+                        <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-lg-5 navlog">
+                            <li class="nav-item" id="navcolor"> <i class="fa-regular fa-user logcol"></i></li>
+                            <li><a href="#">Login</a></li>
+                        </ul> -->
+                    </form>
+
+                    <!-- <div class="navEnd mx-lg-5">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-lg-5 navlog"> -->
+                    <!-- <li class="nav-item" id="navcolor"><i class="fa-solid fa-user logcol"></i></li>
+                            <li class="nav-item"><a class="navacol nav-link" aria-current="page" href="#">Login</a></li> -->
+                    <!-- <li class="nav-item" id="navcolor"><a href="" class="navacol nav-link" aria-current="page"><i class="fa-solid fa-user logcol"></i>Login</a></li> -->
+                    <!-- </ul>
+                    </div> -->
+
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container my-3">
+        <h1>Welcome To Comment Section</h1>
+        <div class="card">
+            <div class="card-body">
+                <div class="form-group">
+                    <h5 class="card-title">Add Image</h5>
+                    <!-- <input type="file" name="choose Image" id="addImage"> -->
+                    <!-- <input type="url" name="Image" id="addImage"> -->
+                    <input type="image" src="c://" alt="">
+                    <h5 class="card-title">Add Name</h5>
+                    <input type="text" class="form-control" id="addTitle" aria-describedby="title"
+                        placeholder="Enter Name">
+                </div>
+
+                <h5 class="card-title">Add Rating</h5>
+                <div class="stars">
+                    <form action="">
+                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                      <label class="star star-5" for="star-5"></label>
+                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                      <label class="star star-4" for="star-4"></label>
+                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                      <label class="star star-3" for="star-3"></label>
+                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                      <label class="star star-2" for="star-2"></label>
+                      <input class="star star-1" id="star-1" type="radio" name="star"/>
+                      <label class="star star-1" for="star-1"></label>
+                    </form>
+                  </div>
+                <h5 class="card-title">Add a Comment</h5>
+                <div class="form-group">
+                    <textarea class="form-control" id="addTxt" rows="3"></textarea>
+                </div>
+                <button class="btn btn-primary" id="addBtn">Add Comment</button>
+            </div>
+        </div>
+        <hr>
+        <h1>Your Comment</h1>
+        <hr>
+        <div id="notes" class="row container-fluid"> </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/comment.js"></script>
+</body>
+
+</html>

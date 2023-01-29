@@ -1,0 +1,138 @@
+.booking {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.hotel_left {
+    width: 75%;
+    /* border: 1px solid slateblue; */
+}
+
+.hotel_icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    margin-right: 2px;
+    border-bottom: 2px solid gray;
+}
+
+.hotel_icon i {
+    margin-top: 31px;
+    font-size: 30px;
+    color: #ffa500;
+}
+
+.icon_first,
+.icon_second,
+.icon_third {
+    display: flex;
+    margin-top: 1px;
+    margin-right: 25px;
+}
+
+.detail {
+    margin-left: 10px;
+}
+
+.hotel_left h3 {
+    color: #ffa500;
+}
+
+.hotel_right {
+    width: 35%;
+    padding: 15px;
+    border: 1px solid seagreen;
+}
+
+.right_heading {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.heading_icon {
+    margin-top: 8px;
+    font-size: 30px;
+    color: red;
+}
+
+.ser_icon {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.s1,
+.s2,
+.s3,
+.s4,
+.s5,
+.s6 {
+    border: 3px solid  #ffa500;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 30px;
+    margin: 5px;
+}
+.btn_book{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ffa500;
+    width: 25%;
+    border-radius: 25%;
+}
+@media screen and (max-width: 1000px) {
+
+    .hotel_left {
+        width: 100%;
+    }
+
+    .booking {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hotel_right {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:1050px) and (max-width:1620px) {
+    .booking {
+        width: 85%;
+    }
+
+    .hotel_right {
+        width: 41%;
+    }
+    .s1,
+    .s2,
+    .s3,
+    .s4,
+    .s5,
+    .s6 {
+        width: 45%;
+    }
+    
+}
+
+@media screen and (min-width:1000px) and (max-width:1050px) {
+    .hotel_right {
+        width: 45%;
+    }
+
+    .booking {
+        width: 90%;
+    }
+    
+}
