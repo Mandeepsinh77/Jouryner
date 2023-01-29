@@ -1,1 +1,1 @@
-##live link :"https://github.com/Mandeepsinh77/Jouryner"
+##live link :"https://mandeepsinh77.github.io/Jouryner/"
